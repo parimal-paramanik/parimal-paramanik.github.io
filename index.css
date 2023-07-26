@@ -357,6 +357,8 @@ section .title::after{
      justify-content: center;
      text-align: center;
      transition: all 0.3s ease;
+   
+     height: 450px;
 }
 .projects .carousel .caproject-cardrd  .text{
     font-size: 25px;
@@ -366,8 +368,8 @@ section .title::after{
 
 .projects .carousel .project-card img{
     
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 5px solid skyblue;
