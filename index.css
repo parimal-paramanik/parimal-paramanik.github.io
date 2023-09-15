@@ -795,7 +795,7 @@ section .title::after{
     }
     .home {
         background: rgb(108,102,102);
-        background: linear-gradient(90deg, rgb(36, 35, 35) 0%, rgb(78, 78, 81) 19%, rgb(68, 71, 72) 54%, rgb(48, 46, 46) 100%);
+        background: linear-gradient(90deg, rgb(27, 27, 27) 0%, rgb(57, 57, 59) 19%, rgb(52, 55, 56) 54%, rgb(48, 46, 46) 100%);
     }
     .home .home-content a{
         font-size: 20px;
