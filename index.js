@@ -22,7 +22,7 @@ $(document).ready(function(){
 
     //   typing animation script 
        var typed = new Typed (".panku",{
-        strings:["Full-Stack Web-Developer", "Node-js Backend Devloper"],
+        strings:["Full-Stack Web-Developer", "Node-js Backend Developer"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
        var typed = new Typed (".panku2",{
-        strings:["Full-Stack Web-Developer", "Node-js Backend Devloper"],
+        strings:["Full-Stack Web-Developer", "Node-js Backend Developer"],
         typeSpeed:100,
         backSpeed:60,
         loop:true

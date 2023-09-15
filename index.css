@@ -326,6 +326,7 @@ section .title::after{
 .projects{
     color: #131212;
     background: #e5ecf0;
+    
 }
 .projects .title::before{
     background: #fff;
@@ -342,7 +343,6 @@ section .title::after{
   transition: all 0.3s ease;
   margin-bottom: 12%;
   margin-top: 12%;
-
 }
 .projects .carousel .project-card:hover{
     background: skyblue;
@@ -357,8 +357,11 @@ section .title::after{
      justify-content: center;
      text-align: center;
      transition: all 0.3s ease;
-   
-     height: 450px;
+     /* height: 450px; */
+}
+.box {
+    width: 80%;
+    margin: auto;
 }
 .projects .carousel .caproject-cardrd  .text{
     font-size: 25px;
@@ -368,11 +371,11 @@ section .title::after{
 
 .projects .carousel .project-card img{
     
-    height: 200px;
-    width: 250px;
+    height: auto;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid skyblue;
+    border-radius: 5px;
+    border: 3px solid skyblue;
     transition: all 0.3s ease;
 }
 
@@ -789,6 +792,10 @@ section .title::after{
         font-size: 32px;
       
     
+    }
+    .home {
+        background: rgb(108,102,102);
+        background: linear-gradient(90deg, rgb(36, 35, 35) 0%, rgb(78, 78, 81) 19%, rgb(68, 71, 72) 54%, rgb(48, 46, 46) 100%);
     }
     .home .home-content a{
         font-size: 20px;
